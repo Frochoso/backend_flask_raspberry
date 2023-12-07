@@ -18,4 +18,5 @@ while True:
         time.sleep(2)
         result=instance.read()
     else:
+        
         print("Error: %d" % result.error_code)
